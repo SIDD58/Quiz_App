@@ -1,0 +1,213 @@
+{
+  "root": "q1",
+  "nodes": {
+    "q1": {
+      "id": "q1",
+      "question": "It’s just a normal day, you have two options to go to gym or read a book ",
+      "options": [
+        {
+          "id": "q1a",
+          "text": "Go to gym ",
+          "next": "q2"
+        },
+        {
+          "id": "q1b",
+          "text": "Read a book ",
+          "next": "q5"
+        }
+      ]
+    },
+    "q2": {
+      "id": "q2",
+      "question": "You are now in a gym, your eyes meet with this guy, stealing glances, He asks you to go out after a gym ",
+      "options": [
+        {
+          "id": "q2a",
+          "text": "Tell him you are exhausted it was your leg day ",
+          "next": "q3"
+        },
+        {
+          "id": "q2b",
+          "text": "Tell him tomorrow morning at 6AM sharp pick me up from the gym ",
+          "next": "q4"
+        }
+      ]
+    },
+    "q3": {
+      "id": "q3",
+      "question": "Because it is your leg day, he offers you to carry you rest of the way ",
+      "options": [
+        {
+          "id": "q3a",
+          "text": "Say cancel your gym membership and don’t come from next time cz that what a baddie will do",
+          "next": "q12"
+        },
+        {
+          "id": "q3b",
+          "text": "Say excuse I am totally fine I am just exhausted and just leave",
+          "next": "q13"
+        }
+      ]
+    },
+    "q4": {
+      "id": "q4",
+      "question": "He revealed that he is a vampire and feel ticklish in the Sun",
+      "options": [
+        {
+          "id": "q4a",
+          "text": "Reject him, saying you are weird",
+          "next": null
+        },
+        {
+          "id": "q4b",
+          "text": "Tell him to reach 6 AM and wait there and then never show up leaving him laughing cz that’s what baddies do ",
+          "next": null
+        }
+      ]
+    },
+    "q5": {
+      "id": "q5",
+      "question": "Which book you will choose for reading?",
+      "options": [
+        {
+          "id": "q5a",
+          "text": "Fruit flies ",
+          "next": "q9"
+        },
+        {
+          "id": "q5b",
+          "text": "Fourth wing ",
+          "next": "q6"
+        }
+      ]
+    },
+    "q6": {
+      "id": "q6",
+      "question": "You were reading fourth wing and then suddenly you washing machine starts making sounds ",
+      "options": [
+        {
+          "id": "q6a",
+          "text": "Tell washing machine to keep quite ",
+          "next": "q7"
+        },
+        {
+          "id": "q6b",
+          "text": "Go put your Baby Tee in the washing machine ",
+          "next": "q8"
+        }
+      ]
+    },
+    "q7": {
+      "id": "q7",
+      "question": "To your surprise washing machine stop making noise, but then washing machine starts singing “wishing they could silence me, I don’t know what they hate on me they can smell the legacy ",
+      "options": [
+        {
+          "id": "q7a",
+          "text": "Go check what is happening ",
+          "next": null
+        },
+        {
+          "id": "q7b",
+          "text": "Start signing the song with your washing machine ",
+          "next": null
+        }
+      ]
+    },
+    "q8": {
+      "id": "q8",
+      "question": "When you went to put Baby Tee in the washing machine, you see there is somehow a pet dog who came from the street into your house and dog is growling at you because you stepped on the tail. ",
+      "options": [
+        {
+          "id": "q8a",
+          "text": "Start singing “I am standing on supremacy, got bitches Tryna come for me literally” ",
+          "next": null
+        },
+        {
+          "id": "q8b",
+          "text": "Tell the dog “You met me at a very Chinese time in my life”",
+          "next": null
+        }
+      ]
+    },
+    "q9": {
+      "id": "q9",
+      "question": "You start reading fruit flies on your kindle and also start eating Pasta because you were hungry from a long exhausting day",
+      "options": [
+        {
+          "id": "q9a",
+          "text": "Start eating Pasta ",
+          "next": "q10"
+        },
+        {
+          "id": "q9b",
+          "text": "Throw pasta all over your device",
+          "next": "q11"
+        }
+      ]
+    },
+    "q10": {
+      "id": "q10",
+      "question": "Congrats, you found easter egg in the Pasta, now you are confused what should you do with this egg",
+      "options": [
+        {
+          "id": "q10a",
+          "text": "Wait for egg to hatch and dragon to come out ",
+          "next": null
+        },
+        {
+          "id": "q10b",
+          "text": "Eat the egg, you need protein urgently, there are no veggies in the house. ",
+          "next": null
+        }
+      ]
+    },
+    "q11": {
+      "id": "q11",
+      "question": "Why would you throw pasta all over your device, now you have to clean everything. On a different note, please watch one of these ",
+      "options": [
+        {
+          "id": "q11a",
+          "text": "Impractical jokers (YouTube shorts Funny)",
+          "next": null
+        },
+        {
+          "id": "q11b",
+          "text": "Second date update (YouTube interesting)",
+          "next": null
+        }
+      ]
+    },
+    "q12": {
+      "id": "q12",
+      "question": "He kidnapped you afterwards, but then you show him that you could lift 30kg and afterwards",
+      "options": [
+        {
+          "id": "q12a",
+          "text": "As he was himself 20kg, you kidnapped the kidnapper instead",
+          "next": null
+        },
+        {
+          "id": "q12b",
+          "text": "He got scared and ran and ran and ran and to this date he is running.",
+          "next": null
+        }
+      ]
+    },
+    "q13": {
+      "id": "q13",
+      "question": "He realized that he sounded totally weird, So ",
+      "options": [
+        {
+          "id": "q13a",
+          "text": "He apologized immediately and suggests of going out sometime when ever you are free ",
+          "next": null
+        },
+        {
+          "id": "q13b",
+          "text": "He just apologized and disappear ",
+          "next": null
+        }
+      ]
+    }
+  }
+}
